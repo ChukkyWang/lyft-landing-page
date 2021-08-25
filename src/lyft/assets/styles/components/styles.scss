@@ -1,0 +1,136 @@
+//Header Styles
+header {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header_styles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  //width
+  max-width: 1180px;
+  min-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+//Logo
+
+header img{
+  width: 100px;
+  height: auto;
+}
+
+.nav_bar {
+  nav {
+    ul {
+      display: flex;
+      li {
+        text-transform: uppercase;
+        border-left: 1px solid var(--border-color);
+        height: 80px;
+        
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 700;
+
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        font-family: Metropolis-Bold, sans-serif;;
+      }
+    }
+  }
+}
+
+.nav_bar nav ul li:nth-child(1){
+  border-left: none;
+  padding: 20px 30px;
+}
+
+.nav_bar nav ul li:hover{
+            color: var(--purple);
+            cursor: pointer;
+}
+
+
+
+
+//Search Bar
+form .form_props input{
+  width: 100%;
+  min-width: 250px;
+  // background-color: green;
+  font-size: 14px;
+  padding: 12px 10px 2px 10px;
+  outline: none;
+  border: none;
+}
+
+form{
+  min-width: 295px;
+  width: 100%;
+  padding: 3px 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(15, 2, 2, 0.404);
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+
+  .form_props{
+    padding: 5px 0px ;
+  }
+
+  label{
+    text-transform: none;
+  }
+
+
+  .icon_here{
+    padding: 10px 0px;
+    line-height: 0px;
+    font-size: 14px;
+    *{
+      color: #DE00A6;
+    }
+  }
+
+  .another_icon_here{
+    padding: 10px 0px;
+    line-height: 0px;
+    font-size: 14px;
+  }
+  // margin-right: 20px;
+}
+
+.App form div{
+  position: relative;
+}
+
+.App form div label{
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  font-family: Metropolis-Regular, sans-serif;
+  font-weight: 200;
+  transition: .33s all;
+  pointer-events: none;
+  padding: 0px 3px 3px 0px;
+  background-color: #ffffff;
+  color: rgba(12,11,49,0.7);
+}
+
+
+.App form div input:focus ~ label {
+  top: -8px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: #ffffff;
+  padding: 0px 3px 0px 0px;
+  margin-top: 9px;
+}

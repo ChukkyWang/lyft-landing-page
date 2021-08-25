@@ -1,0 +1,29 @@
+:root {
+  --purple: #8b37ff;
+  --light-blue: rgb(235, 235, 255);
+  --text-color: #0c0b31;
+  --deep-blue: rgb(43, 27, 129);
+  --border-color: rgba(12, 11, 49, 0.16);
+}
+
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url("../../fonts/metropolis/Metropolis-Bold.otf");
+}
+
+@font-face {
+            font-family: Metropolis-Regular;
+            src: url("../../fonts/metropolis/Metropolis-Regular.otf");
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.2;
+  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

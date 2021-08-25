@@ -1,0 +1,136 @@
+header {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header_styles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1180px;
+  min-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+.nav_bar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav_bar nav ul li {
+  text-transform: uppercase;
+  border-left: 1px solid var(--border-color);
+  height: 80px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Metropolis-Bold, sans-serif;
+}
+
+.nav_bar nav ul li:nth-child(1) {
+  border-left: none;
+  padding: 20px 30px;
+}
+
+.nav_bar nav ul li:hover {
+  color: var(--purple);
+  cursor: pointer;
+}
+
+form .form_props input {
+  width: 100%;
+  min-width: 250px;
+  font-size: 14px;
+  padding: 12px 10px 2px 10px;
+  outline: none;
+  border: none;
+}
+
+form {
+  min-width: 295px;
+  width: 100%;
+  padding: 3px 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(15, 2, 2, 0.404);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .form_props {
+  padding: 5px 0px;
+}
+
+form label {
+  text-transform: none;
+}
+
+form .icon_here {
+  padding: 10px 0px;
+  line-height: 0px;
+  font-size: 14px;
+}
+
+form .icon_here * {
+  color: #DE00A6;
+}
+
+form .another_icon_here {
+  padding: 10px 0px;
+  line-height: 0px;
+  font-size: 14px;
+}
+
+.App form div {
+  position: relative;
+}
+
+.App form div label {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  font-family: Metropolis-Regular, sans-serif;
+  font-weight: 200;
+  -webkit-transition: .33s all;
+  transition: .33s all;
+  pointer-events: none;
+  padding: 0px 3px 3px 0px;
+  background-color: #ffffff;
+  color: rgba(12, 11, 49, 0.7);
+}
+
+.App form div input:focus ~ label {
+  top: -8px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: #ffffff;
+  padding: 0px 3px 0px 0px;
+  margin-top: 9px;
+}
+/*# sourceMappingURL=styles.css.map */
