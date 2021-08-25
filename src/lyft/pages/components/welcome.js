@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { BsLightningFill, BsClockHistory } from "react-icons/bs";
 import { FaMoneyCheckAlt } from "react-icons/fa";
-import {TiArrowRightThick} from "react-icons/ti"
+import { TiArrowRightThick } from "react-icons/ti";
+import { IoMdCalendar } from "react-icons/io";
+import { RiSurgicalMaskFill } from "react-icons/ri";
+import { MdPersonPinCircle } from "react-icons/md";
 import "../../assets/styles/pages/style.css";
 
 function Welcome() {
@@ -9,6 +12,7 @@ function Welcome() {
     <div>
       <Hero />
       <NextToHero />
+      <ThirdOfHero />
     </div>
   );
 }
@@ -45,17 +49,17 @@ function Hero() {
 function NextToHero() {
   const [importDetails, setImportDetails] = useState([
     {
-      icon: <FaMoneyCheckAlt/>,
+      icon: <FaMoneyCheckAlt />,
       title: "Reliable earnings",
       body: "Make money, keep your tips, and use in-app tools to help maximize your earnings.",
     },
     {
-      icon: <BsClockHistory/>,
+      icon: <BsClockHistory />,
       title: "A flexible schedule",
       body: "Be your own boss and drive whenever it works for you.",
     },
     {
-      icon: <BsLightningFill/> ,
+      icon: <BsLightningFill />,
       title: "Get paid promptly",
       body: "Cash out your earnings whenever you want with Express Pay and Lyft Direct.",
     },
@@ -90,13 +94,53 @@ function NextToHero() {
           ))}
         </div>
         <div className="next_buttons">
-          <button>
-            Apply to drive
-          </button>
+          <button>Apply to drive</button>
           <a className="learn_more_next">
             <small>How drivers pay work</small>
-            <span><TiArrowRightThick/></span>
+            <span>
+              <TiArrowRightThick />
+            </span>
           </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ThirdOfHero() {
+  return (
+    <div className="third_of_hero">
+      <div className="third_item_class">
+        <div className="third_item_left_flank">
+          <h3>READY WITH LYFT</h3>
+          <h2>Ready, set, go</h2>
+          <h2 className="last_header">in just a few quick taps.</h2>
+          <p className="__text">
+            Whether you’re following your heart or your busy schedule, we’ll get
+            you where you need to go.
+          </p>
+          <button className="get_ride trip_nugggets">
+            <small>
+              <MdPersonPinCircle />
+            </small>
+            <span>Get a reliable ride in minutes</span>
+          </button>
+          <div className="trip_nugggets other_trip_nuggets">
+            <span>
+              <RiSurgicalMaskFill />
+            </span>
+            <span>Know that your driver is wearing a mask</span>
+          </div>
+          <div className="trip_nugggets other_trip_nuggets">
+            <span>
+              <IoMdCalendar />
+            </span>
+            <span>Schedule your ride in advance</span>
+          </div>
+          <button className="get_ride_button">Get a ride</button>
+        </div>
+        <div className="third_item_right_flank">
+          <img src="https://images.ctfassets.net/q8mvene1wzq4/7s9Tzc2URFLjPDktFhvVdu/65be23d7dd1038fd2c012d470cb5841a/reliable_eng.png?w=1500&q=60&fm=webp" alt="" />
         </div>
       </div>
     </div>

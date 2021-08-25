@@ -16,6 +16,11 @@
   src: url("../../fonts/metropolis/Metropolis-Regular.otf");
 }
 
+@font-face {
+  font-family: Metropolis-Thin;
+  src: url("../../fonts/metropolis/Metropolis-Light.otf");
+}
+
 *,
 :before,
 :after {

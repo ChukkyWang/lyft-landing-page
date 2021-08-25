@@ -44,9 +44,9 @@ function MenuBar(params) {
     <div className="nav_bar">
       <nav>
         <ul>
-          <li>
+          {/* <li>
             <SearchBar />
-          </li>
+          </li> */}
           <>
             <li className="nav_routes">Driver</li>
             <li className="nav_routes">Rider</li>
