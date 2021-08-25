@@ -138,6 +138,15 @@
 
 //Next to Hero
 
+
+.fifth_to_hero{
+  margin: 40px auto 0px !important;
+}
+
+.fourth_to_hero{
+  flex-direction: row-reverse;
+  margin: 40px auto !important;
+}
 .next_to_hero {
   margin: 200px auto 0px;
   max-width: 1100px;
@@ -155,13 +164,23 @@
     width: 50%;
   }
 
-  .next_to_hero_left img {
-    width: 100%;
-    max-width: 380px;
-    display: block;
-    margin: 0 auto;
-    border-top-right-radius: 35%;
+  .next_to_hero_left {
+    .driving_woman{
+      border-top-left-radius: 35%;
+      border-top-right-radius: unset;
+      max-width: 420px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 380px;
+      display: block;
+      margin: 0 auto;
+      border-top-right-radius: 35%;
+    }
   }
+  
+  
 
   .next_to_hero_right {
     padding: 20px 25px;
@@ -187,6 +206,11 @@
     line-height: 0.9;
   }
 
+  .fifth_place_header{
+    line-height: 1.5;
+
+  }
+
   p {
     margin-top: 8px;
   }
@@ -197,6 +221,10 @@
 
   .__text {
     text-align: left;
+  }
+
+  .__fourth_text{
+    margin-bottom: 20px;
   }
 
   .each_important_detail {
@@ -345,7 +373,7 @@
         width: 100%;
         max-width: 420px;
         display: block;
-        margin: 50px auto 0px;
+        margin: 0px auto;
       }
     }
 
@@ -444,6 +472,18 @@
   text-align: center;
   display: block;
   color: #fff;
+}
+
+.lyft_pink{
+  margin: 50px 0px;
+  img{
+    width: 100px;
+    height: auto;
+  }
+
+  .other_classes{
+    font-size: 13.5px;
+  }
 }
 
 

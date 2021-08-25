@@ -9,7 +9,7 @@ import Welcome from "./components/welcome";
 function Landing() {
   return (
     <Fragment>
-      {/* <Header /> */}
+      <Header />
       <Welcome />
       <Footer />
     </Fragment>

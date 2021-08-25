@@ -13,6 +13,8 @@ function Welcome() {
       <Hero />
       <NextToHero />
       <ThirdOfHero />
+      <FourthHero/>
+      <FiftHero />
     </div>
   );
 }
@@ -110,39 +112,126 @@ function NextToHero() {
 function ThirdOfHero() {
   return (
     <div className="third_of_hero">
-      <div className="third_item_class">
-        <div className="third_item_left_flank">
-          <h3>READY WITH LYFT</h3>
-          <h2>Ready, set, go</h2>
-          <h2 className="last_header">in just a few quick taps.</h2>
-          <p className="__text">
-            Whether you’re following your heart or your busy schedule, we’ll get
-            you where you need to go.
-          </p>
-          <button className="get_ride trip_nugggets">
-            <small>
-              <MdPersonPinCircle />
-            </small>
-            <span>Get a reliable ride in minutes</span>
-          </button>
-          <div className="trip_nugggets other_trip_nuggets">
-            <span>
-              <RiSurgicalMaskFill />
-            </span>
-            <span>Know that your driver is wearing a mask</span>
+      <div className="lyft_pink_banner">
+        <div className="third_item_class">
+          <div className="third_item_left_flank">
+            <h3>READY WITH LYFT</h3>
+            <h2>Ready, set, go</h2>
+            <h2 className="last_header">in just a few quick taps.</h2>
+            <p className="__text">
+              Whether you’re following your heart or your busy schedule, we’ll
+              get you where you need to go.
+            </p>
+            <button className="get_ride trip_nugggets">
+              <small>
+                <MdPersonPinCircle />
+              </small>
+              <span>Get a reliable ride in minutes</span>
+            </button>
+            <div className="trip_nugggets other_trip_nuggets">
+              <span>
+                <RiSurgicalMaskFill />
+              </span>
+              <span>Know that your driver is wearing a mask</span>
+            </div>
+            <div className="trip_nugggets other_trip_nuggets">
+              <span>
+                <IoMdCalendar />
+              </span>
+              <span>Schedule your ride in advance</span>
+            </div>
+            <button className="get_ride_button">Get a ride</button>
+            <div className="lyft_pink">
+              <img
+                src="https://images.ctfassets.net/q8mvene1wzq4/5YeZZtVqMmX1it3il0O3JZ/a6e3fe92f39ac1bf7abcd967613e328a/LyftPink_Gradient5.png?w=&q=60&fm=webp"
+                alt=""
+              />
+              <p className="__text other_classes">
+                Join Lyft Pink to unlock perks like 15% off rideshare, free
+                Grubhub+ membership, exclusive offers, and more. All for $19.99
+                a month. Available in the US only.
+              </p>
+            </div>
           </div>
-          <div className="trip_nugggets other_trip_nuggets">
-            <span>
-              <IoMdCalendar />
-            </span>
-            <span>Schedule your ride in advance</span>
+          <div className="third_item_right_flank">
+            <img
+              src="https://images.ctfassets.net/q8mvene1wzq4/7s9Tzc2URFLjPDktFhvVdu/65be23d7dd1038fd2c012d470cb5841a/reliable_eng.png?w=1500&q=60&fm=webp"
+              alt=""
+            />
           </div>
-          <button className="get_ride_button">Get a ride</button>
-        </div>
-        <div className="third_item_right_flank">
-          <img src="https://images.ctfassets.net/q8mvene1wzq4/7s9Tzc2URFLjPDktFhvVdu/65be23d7dd1038fd2c012d470cb5841a/reliable_eng.png?w=1500&q=60&fm=webp" alt="" />
         </div>
       </div>
     </div>
   );
 }
+
+function FourthHero() {
+  
+  return (
+    <div className="fourth_to_hero next_to_hero">
+      <div className="next_to_hero_left">
+        <img
+          src="https://images.ctfassets.net/q8mvene1wzq4/14FL1uYaenGmLQlkKiEgqW/16c158a1bb699e0b0fab1fbcdff2e05d/Image_for_Homepage_Safety_Module.png?w=1500&q=60&fm=webp"
+          alt=""
+        />
+      </div>
+      <div className="next_to_hero_right">
+        <h3>SAFETY FIRST</h3>
+        <h2 className="last_header fifth_place_header">How to show up like a <br/>best stranger</h2>
+        <p className="__text __fourth_text">
+        Every ride should feel safe and comfy to everyone. A few simple ground rules can help make that happen for all drivers and riders. Read up, mask up, and crack a window to enjoy the breeze in your hair.
+        </p>
+
+        <div className="next_buttons">
+          <button>Learn about Safety</button>
+          <a className="learn_more_next">
+            <small>Community Guildlines</small>
+            <span>
+              <TiArrowRightThick />
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
+function FiftHero() {
+  return (
+    <div className="fifth_to_hero next_to_hero">
+      <div className="next_to_hero_left">
+        <img
+          className="driving_woman"
+          src="https://images.ctfassets.net/q8mvene1wzq4/3pdKBmNsaWZsgfSMtkVFjH/08d5d280115e19c3b44bd2633d72927f/Driver_Vaccine_Access.jpg?w=1500&q=60&fm=webp"
+          alt=""
+        />
+      </div>
+      <div className="next_to_hero_right">
+        <h3>READY WHEN YOU ARE</h3>
+        <h2 className="last_header fifth_place_header">Getting the vaccine starts with getting to the vaccine</h2>
+        <p className="__text __fourth_text">
+          The pandemic has been tough on all of us, but it’s been particularly
+          hard on communities that are underserved by public transit,
+          healthcare, and other basic services. It’s our duty to help the best
+          way we can: with rides. We’re working with partners and community
+          members to help provide access to transportation to vaccine sites for
+          people who need it. So everyone can say, “Sorry, COVID, our ride’s
+          here.”
+        </p>
+        <div className="next_buttons">
+          <a className="learn_more_next">
+            <small>Learn more about vaccine access</small>
+            <span>
+              <TiArrowRightThick />
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
