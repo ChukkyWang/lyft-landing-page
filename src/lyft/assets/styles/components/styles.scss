@@ -20,7 +20,7 @@ header {
 
 //Logo
 
-header img{
+header img {
   width: 100px;
   height: auto;
 }
@@ -33,7 +33,7 @@ header img{
         text-transform: uppercase;
         border-left: 1px solid var(--border-color);
         height: 80px;
-        
+
         font-size: 15px;
         line-height: 20px;
         font-weight: 700;
@@ -41,27 +41,33 @@ header img{
         padding: 20px;
         display: flex;
         align-items: center;
-        font-family: Metropolis-Bold, sans-serif;;
+        font-family: Metropolis-Bold, sans-serif;
       }
     }
   }
 }
 
-.nav_bar nav ul li:nth-child(1){
+.nav_routes{
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+ nav ul li.nav_routes{
+    display: none
+  }
+}
+.nav_bar nav ul li:nth-child(1) {
   border-left: none;
   padding: 20px 30px;
 }
 
-.nav_bar nav ul li:hover{
-            color: var(--purple);
-            cursor: pointer;
+.nav_bar nav ul li:hover {
+  color: var(--purple);
+  cursor: pointer;
 }
 
-
-
-
 //Search Bar
-form .form_props input{
+form .form_props input {
   width: 100%;
   min-width: 250px;
   // background-color: green;
@@ -71,7 +77,7 @@ form .form_props input{
   border: none;
 }
 
-form{
+form {
   min-width: 295px;
   width: 100%;
   padding: 3px 20px;
@@ -81,25 +87,24 @@ form{
   align-items: center;
   // justify-content: space-between;
 
-  .form_props{
-    padding: 5px 0px ;
+  .form_props {
+    padding: 5px 0px;
   }
 
-  label{
+  label {
     text-transform: none;
   }
 
-
-  .icon_here{
+  .icon_here {
     padding: 10px 0px;
     line-height: 0px;
     font-size: 14px;
-    *{
-      color: #DE00A6;
+    * {
+      color: #de00a6;
     }
   }
 
-  .another_icon_here{
+  .another_icon_here {
     padding: 10px 0px;
     line-height: 0px;
     font-size: 14px;
@@ -107,23 +112,22 @@ form{
   // margin-right: 20px;
 }
 
-.App form div{
+.App form div {
   position: relative;
 }
 
-.App form div label{
+.App form div label {
   position: absolute;
   top: 12px;
   left: 10px;
   font-family: Metropolis-Regular, sans-serif;
   font-weight: 200;
-  transition: .33s all;
+  transition: 0.33s all;
   pointer-events: none;
   padding: 0px 3px 3px 0px;
   background-color: #ffffff;
-  color: rgba(12,11,49,0.7);
+  color: rgba(12, 11, 49, 0.7);
 }
-
 
 .App form div input:focus ~ label {
   top: -8px;

@@ -12,8 +12,8 @@
 }
 
 @font-face {
-            font-family: Metropolis-Regular;
-            src: url("../../fonts/metropolis/Metropolis-Regular.otf");
+  font-family: Metropolis-Regular;
+  src: url("../../fonts/metropolis/Metropolis-Regular.otf");
 }
 
 *,
@@ -26,4 +26,16 @@
   color: var(--text-color);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14.75px;
+  line-height: 22.5px;
+  font-family: Metropolis-Regular, sans-serif;
 }

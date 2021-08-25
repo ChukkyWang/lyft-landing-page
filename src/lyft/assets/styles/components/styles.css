@@ -49,6 +49,16 @@ header img {
   font-family: Metropolis-Bold, sans-serif;
 }
 
+.nav_routes {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul li.nav_routes {
+    display: none;
+  }
+}
+
 .nav_bar nav ul li:nth-child(1) {
   border-left: none;
   padding: 20px 30px;
@@ -97,7 +107,7 @@ form .icon_here {
 }
 
 form .icon_here * {
-  color: #DE00A6;
+  color: #de00a6;
 }
 
 form .another_icon_here {
@@ -116,8 +126,8 @@ form .another_icon_here {
   left: 10px;
   font-family: Metropolis-Regular, sans-serif;
   font-weight: 200;
-  -webkit-transition: .33s all;
-  transition: .33s all;
+  -webkit-transition: 0.33s all;
+  transition: 0.33s all;
   pointer-events: none;
   padding: 0px 3px 3px 0px;
   background-color: #ffffff;

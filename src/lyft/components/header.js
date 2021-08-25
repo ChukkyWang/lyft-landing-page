@@ -48,11 +48,11 @@ function MenuBar(params) {
             <SearchBar />
           </li>
           <>
-            <li>Driver</li>
-            <li>Rider</li>
-            <li>Business</li>
-            <li>Login</li>
-            <li>Sign Up</li>
+            <li className="nav_routes">Driver</li>
+            <li className="nav_routes">Rider</li>
+            <li className="nav_routes">Business</li>
+            <li className="nav_routes">Login</li>
+            <li className="nav_routes">Sign Up</li>
           </>
         </ul>
       </nav>
