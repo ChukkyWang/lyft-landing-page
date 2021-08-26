@@ -138,12 +138,11 @@
 
 //Next to Hero
 
-
-.fifth_to_hero{
+.fifth_to_hero {
   margin: 40px auto 0px !important;
 }
 
-.fourth_to_hero{
+.fourth_to_hero {
   flex-direction: row-reverse;
   margin: 40px auto !important;
 }
@@ -165,10 +164,14 @@
   }
 
   .next_to_hero_left {
-    .driving_woman{
+    .driving_woman {
       border-top-left-radius: 35%;
       border-top-right-radius: unset;
       max-width: 420px;
+    }
+
+    .people_picture {
+      border-top-right-radius: unset;
     }
 
     img {
@@ -179,8 +182,6 @@
       border-top-right-radius: 35%;
     }
   }
-  
-  
 
   .next_to_hero_right {
     padding: 20px 25px;
@@ -206,9 +207,8 @@
     line-height: 0.9;
   }
 
-  .fifth_place_header{
+  .fifth_place_header {
     line-height: 1.5;
-
   }
 
   p {
@@ -223,7 +223,7 @@
     text-align: left;
   }
 
-  .__fourth_text{
+  .__fourth_text {
     margin-bottom: 20px;
   }
 
@@ -367,9 +367,8 @@
       width: 50%;
     }
 
-
-    .third_item_right_flank{
-      img{
+    .third_item_right_flank {
+      img {
         width: 100%;
         max-width: 420px;
         display: block;
@@ -406,35 +405,31 @@
       text-align: left;
     }
 
-    .trip_nugggets{
+    .trip_nugggets {
       display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: unset;
-          margin: 40px auto 20px 20px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: unset;
+      margin: 40px auto 20px 20px;
 
-        *{
-          line-height: unset;
-          padding: 0px;
-          margin: 0px;
-          font-weight: 700;
-          font-size: 13.5px;
-          text-align: center;
-          
-        }
-
+      * {
+        line-height: unset;
+        padding: 0px;
+        margin: 0px;
+        font-weight: 700;
+        font-size: 13.5px;
+        text-align: center;
+      }
     }
 
-    .trip_nugggets:hover{
+    .trip_nugggets:hover {
       text-decoration: underline;
       cursor: pointer;
     }
 
-    .trip_nugggets span:nth-child(1){
+    .trip_nugggets span:nth-child(1) {
       margin: 0px 15px 0px 0px;
     }
-
-    
 
     .get_ride {
       border: 1px solid var(--purple);
@@ -447,20 +442,18 @@
       max-width: auto;
       text-align: center;
       display: block;
-      box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 1px 0px, rgba(0, 0, 0, 0.16) 0px 3px 6px 0px
-      
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 1px 0px,
+        rgba(0, 0, 0, 0.16) 0px 3px 6px 0px;
     }
   }
 
-
-  .other_trip_nuggets{
+  .other_trip_nuggets {
     margin-left: 20px;
     text-align: left;
   }
 }
 
-
-.get_ride_button{
+.get_ride_button {
   background-color: var(--purple);
   font-size: 14.5px;
   margin-right: 10px;
@@ -474,18 +467,17 @@
   color: #fff;
 }
 
-.lyft_pink{
+.lyft_pink {
   margin: 50px 0px;
-  img{
+  img {
     width: 100px;
     height: auto;
   }
 
-  .other_classes{
+  .other_classes {
     font-size: 13.5px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .third_of_hero {
@@ -514,23 +506,19 @@
       .get_ride {
         margin: 20px auto;
       }
-      .trip_nugggets{
+      .trip_nugggets {
         justify-content: center;
-        
+        margin: 40px auto 20px 20px;
       }
-      
     }
 
-
-    
-
-    .other_trip_nuggets{
+    .other_trip_nuggets {
       margin: 20px auto;
       text-align: center;
     }
   }
 
-  .get_ride_button{
+  .get_ride_button {
     margin: 25px auto;
   }
 }

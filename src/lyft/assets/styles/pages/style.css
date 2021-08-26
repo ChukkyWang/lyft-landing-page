@@ -174,6 +174,10 @@
   max-width: 420px;
 }
 
+.next_to_hero .next_to_hero_left .people_picture {
+  border-top-right-radius: unset;
+}
+
 .next_to_hero .next_to_hero_left img {
   width: 100%;
   max-width: 380px;
@@ -527,6 +531,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 40px auto 20px 20px;
   }
   .third_of_hero .other_trip_nuggets {
     margin: 20px auto;

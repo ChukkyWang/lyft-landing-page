@@ -173,6 +173,7 @@ function FourthHero() {
         <img
           src="https://images.ctfassets.net/q8mvene1wzq4/14FL1uYaenGmLQlkKiEgqW/16c158a1bb699e0b0fab1fbcdff2e05d/Image_for_Homepage_Safety_Module.png?w=1500&q=60&fm=webp"
           alt=""
+          className="people_picture"
         />
       </div>
       <div className="next_to_hero_right">
